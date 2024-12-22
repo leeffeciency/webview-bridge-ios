@@ -6,6 +6,16 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6775C90A2D17E0BD002568DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6775C9032D17E0BD002568DE /* ContentView.swift */; };
+		6775C90B2D17E0BD002568DE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6775C9042D17E0BD002568DE /* Persistence.swift */; };
+		6775C90C2D17E0BD002568DE /* WeviewBridge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6775C9062D17E0BD002568DE /* WeviewBridge.xcdatamodeld */; };
+		6775C90D2D17E0BD002568DE /* WeviewBridgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6775C9072D17E0BD002568DE /* WeviewBridgeApp.swift */; };
+		6775C90E2D17E0BD002568DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6775C9002D17E0BD002568DE /* Preview Assets.xcassets */; };
+		6775C90F2D17E0BD002568DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6775C9022D17E0BD002568DE /* Assets.xcassets */; };
+		6775C9122D17E104002568DE /* Webview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6775C9112D17E0FF002568DE /* Webview.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		67A1333C2D170346004C25E5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,28 +34,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6775C9002D17E0BD002568DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6775C9022D17E0BD002568DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6775C9032D17E0BD002568DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6775C9042D17E0BD002568DE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		6775C9052D17E0BD002568DE /* WeviewBridge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WeviewBridge.entitlements; sourceTree = "<group>"; };
+		6775C9072D17E0BD002568DE /* WeviewBridgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeviewBridgeApp.swift; sourceTree = "<group>"; };
+		6775C9092D17E0BD002568DE /* WeviewBridge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WeviewBridge.xcdatamodel; sourceTree = "<group>"; };
+		6775C9112D17E0FF002568DE /* Webview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webview.swift; sourceTree = "<group>"; };
 		67A133252D170345004C25E5 /* WeviewBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeviewBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67A1333B2D170346004C25E5 /* WeviewBridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeviewBridgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67A133452D170346004C25E5 /* WeviewBridgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeviewBridgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		67A133272D170345004C25E5 /* WeviewBridge */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WeviewBridge;
-			sourceTree = "<group>";
-		};
-		67A1333E2D170346004C25E5 /* WeviewBridgeTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WeviewBridgeTests;
-			sourceTree = "<group>";
-		};
-		67A133482D170346004C25E5 /* WeviewBridgeUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WeviewBridgeUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		67A133222D170345004C25E5 /* Frameworks */ = {
@@ -72,13 +72,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6775C9012D17E0BD002568DE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6775C9002D17E0BD002568DE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6775C9082D17E0BD002568DE /* WeviewBridge */ = {
+			isa = PBXGroup;
+			children = (
+				6775C9102D17E0EB002568DE /* Webview */,
+				6775C9012D17E0BD002568DE /* Preview Content */,
+				6775C9022D17E0BD002568DE /* Assets.xcassets */,
+				6775C9032D17E0BD002568DE /* ContentView.swift */,
+				6775C9042D17E0BD002568DE /* Persistence.swift */,
+				6775C9052D17E0BD002568DE /* WeviewBridge.entitlements */,
+				6775C9062D17E0BD002568DE /* WeviewBridge.xcdatamodeld */,
+				6775C9072D17E0BD002568DE /* WeviewBridgeApp.swift */,
+			);
+			path = WeviewBridge;
+			sourceTree = "<group>";
+		};
+		6775C9102D17E0EB002568DE /* Webview */ = {
+			isa = PBXGroup;
+			children = (
+				6775C9112D17E0FF002568DE /* Webview.swift */,
+			);
+			path = Webview;
+			sourceTree = "<group>";
+		};
 		67A1331C2D170345004C25E5 = {
 			isa = PBXGroup;
 			children = (
-				67A133272D170345004C25E5 /* WeviewBridge */,
-				67A1333E2D170346004C25E5 /* WeviewBridgeTests */,
-				67A133482D170346004C25E5 /* WeviewBridgeUITests */,
 				67A133262D170345004C25E5 /* Products */,
+				6775C9082D17E0BD002568DE /* WeviewBridge */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,9 +136,6 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				67A133272D170345004C25E5 /* WeviewBridge */,
-			);
 			name = WeviewBridge;
 			packageProductDependencies = (
 			);
@@ -130,9 +156,6 @@
 			dependencies = (
 				67A1333D2D170346004C25E5 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				67A1333E2D170346004C25E5 /* WeviewBridgeTests */,
-			);
 			name = WeviewBridgeTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +175,6 @@
 			);
 			dependencies = (
 				67A133472D170346004C25E5 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				67A133482D170346004C25E5 /* WeviewBridgeUITests */,
 			);
 			name = WeviewBridgeUITests;
 			packageProductDependencies = (
@@ -212,6 +232,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6775C90E2D17E0BD002568DE /* Preview Assets.xcassets in Resources */,
+				6775C90F2D17E0BD002568DE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +258,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6775C90A2D17E0BD002568DE /* ContentView.swift in Sources */,
+				6775C90B2D17E0BD002568DE /* Persistence.swift in Sources */,
+				6775C9122D17E104002568DE /* Webview.swift in Sources */,
+				6775C90C2D17E0BD002568DE /* WeviewBridge.xcdatamodeld in Sources */,
+				6775C90D2D17E0BD002568DE /* WeviewBridgeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,9 +429,9 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.1;
@@ -439,9 +466,9 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.1;
@@ -583,6 +610,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6775C9062D17E0BD002568DE /* WeviewBridge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6775C9092D17E0BD002568DE /* WeviewBridge.xcdatamodel */,
+			);
+			currentVersion = 6775C9092D17E0BD002568DE /* WeviewBridge.xcdatamodel */;
+			path = WeviewBridge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 67A1331D2D170345004C25E5 /* Project object */;
 }
